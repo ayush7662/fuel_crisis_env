@@ -1,3 +1,17 @@
+
+---
+title: Fuel Crisis Allocation Environment
+emoji: 🔥
+colorFrom: red
+colorTo: yellow
+sdk: docker
+app_file: app.py
+pinned: false
+---
+
+
+
+
 # Fuel Crisis Allocation Environment (OpenEnv)
 
 ## Overview
