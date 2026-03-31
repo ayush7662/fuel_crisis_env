@@ -1,0 +1,9 @@
+name: fuel-crisis-env
+version: 1.0
+
+entrypoint: env.core:FuelEnv
+
+tasks:
+   - id: easy
+   - id: medium
+   - id: hard
