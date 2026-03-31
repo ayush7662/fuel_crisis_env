@@ -19,3 +19,6 @@ def step(action: dict):
         "done": done
 
     }
+@app.post("/state")
+def state():
+    return env.state()
