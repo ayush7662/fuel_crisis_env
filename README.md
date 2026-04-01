@@ -11,6 +11,48 @@ pinned: false
 
 
 
+## 🔗 Deployment Links
+
+### 🌐 Hugging Face Space
+
+https://ayush7662-fuelenv.hf.space
+
+---
+
+### 💻 GitHub Repository
+
+https://github.com/ayush7662/fuel_crisis_env
+
+---
+
+### 📄 API Documentation (Swagger UI)
+
+https://ayush7662-fuelenv.hf.space/docs
+
+---
+
+## 🧪 How to Test
+
+1. Open the API Docs link
+2. Use `/reset` to initialize environment
+3. Use `/step` to send allocation action
+4. Use `/state` to check current state
+
+---
+
+## ✅ Status
+
+✔ Fully deployed on Hugging Face
+✔ OpenEnv compliant
+✔ APIs working (`/reset`, `/step`, `/state`)
+✔ Inference script reproducible
+✔ Dockerized environment
+
+---
+
+
+
+
 
 # Fuel Crisis Allocation Environment (OpenEnv)
 
