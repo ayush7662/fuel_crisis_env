@@ -5,6 +5,19 @@ from env.models import Action
 app = FastAPI()
 env = FuelEnv("easy")
 
+
+@app.get("/")
+def home():
+    return {
+        "message": "Fuel Crisis OpenEnv is running",
+        "endpoints": {
+            "reset": "/reset (POST)",
+            "step": "/step (POST)",
+            "state": "/state (POST)"
+        },
+        "docs": "/docs"
+    }
+
 @app.post("/reset")
 def reset():
     return env.reset().dict()
@@ -17,8 +30,8 @@ def step(action: dict):
         "observation": obs.dict(),
         "reward": reward.dict(),
         "done": done
-
     }
+
 @app.post("/state")
 def state():
     return env.state()
