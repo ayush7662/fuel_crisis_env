@@ -1,15 +1,20 @@
 [project]
-name = "FuelEnv"
+name = "fuel_crisis_env"
 version = "0.1.0"
-description = "OpenEnv environment for fuel crisis resource allocation"
+description = "Fuel crisis OpenEnv environment"
 authors = [
     { name = "Ayush" }
 ]
+
 dependencies = [
     "fastapi",
     "uvicorn",
-    "pydantic"
+    "pydantic",
+    "openenv>=0.2.0"
 ]
+
+[project.scripts]
+server = "app:app"
 
 [build-system]
 requires = ["setuptools"]
