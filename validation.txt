@@ -1,0 +1,12 @@
+openenv validate
+
+Result:
+All checks passed ✅
+
+Environment Details:
+- reset endpoint working
+- step endpoint working
+- state endpoint working
+- inference script working
+- Hugging Face deployment successful
+- pyproject.toml present
