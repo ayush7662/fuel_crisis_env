@@ -1,0 +1,16 @@
+[project]
+name = "FuelEnv"
+version = "0.1.0"
+description = "OpenEnv environment for fuel crisis resource allocation"
+authors = [
+    { name = "Ayush" }
+]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
