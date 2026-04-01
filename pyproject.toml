@@ -10,11 +10,11 @@ dependencies = [
     "fastapi",
     "uvicorn",
     "pydantic",
-    "openenv>=0.2.0"
+    "openenv-core>=0.2.0",
 ]
 
 [project.scripts]
-server = "app:app"
+server = "server.app:main"
 
 [build-system]
 requires = ["setuptools"]
