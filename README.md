@@ -13,7 +13,14 @@ pinned: false
 
 ## 🔗 Deployment Links
 
-### 🌐 Hugging Face Space
+
+###  Hugging Face Space:
+
+https://huggingface.co/spaces/ayush7662/FuelEnv
+
+---
+
+### 🌐 Live App
 
 https://ayush7662-fuelenv.hf.space
 
