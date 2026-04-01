@@ -30,8 +30,8 @@ def step(action: dict):
         "observation": obs.dict(),
         "reward": reward.dict(),
         "done": done
-    }
 
+    }
 @app.post("/state")
 def state():
     return env.state()
