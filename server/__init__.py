@@ -1,1 +1,1 @@
-# Server package for OpenEnv deployment entrypoint.
+# Thin OpenEnv entrypoint; see app.py for the FastAPI application.

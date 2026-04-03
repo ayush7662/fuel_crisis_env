@@ -174,9 +174,11 @@ fuel_crisis_env/
 │   └── tasks.py
 │
 ├── app.py
+├── server/
+│   └── app.py
 ├── inference.py
 ├── openenv.yaml
-├── requirements.txt
+├── pyproject.toml
 ├── Dockerfile
 └── README.md
 ```
@@ -188,8 +190,10 @@ fuel_crisis_env/
 ### Install dependencies
 
 ```
-pip install -r requirements.txt
+pip install -e .
 ```
+
+(Dependencies are declared in `pyproject.toml`.)
 
 ---
 
